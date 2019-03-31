@@ -12,6 +12,7 @@ const port = process.env.PORT || 443,
     });
 bot.setWebHook(externalUrl + ':443/bot' + token);
 bot.on('message',(msg)=>{
-const if(chatId=msg.chat.id)=="hello";
+const chatId=msg.chat.id;
+    if(msg.text=="hai"|| msg.text=="hello")
 bot.sendMessage(chatId,'hello');
 });
