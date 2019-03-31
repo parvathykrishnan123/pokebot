@@ -15,6 +15,6 @@ bot.on('message',(msg)=>{
 const chatId=msg.chat.id;
     if(msg.text=='hai'|| msg.text=='hello'){
         bot.sendMessage(chatId,'hello');}
-    elseif(msg.text=='how r u'){
+    else if(msg.text=='how r u'){
         bot.sendMessage(chatId,'fine')}
 });
